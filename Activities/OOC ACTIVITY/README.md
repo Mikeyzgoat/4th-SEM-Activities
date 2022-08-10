@@ -5,13 +5,14 @@
 A parts of speech tagger that reads a string and returns all possible parts of speech of substrings from a user input (string).
 
 ## Contents :
-* [Requirements](https://github.com/Mikeyzgoat/4th-SEM-Activities/new/main/Activities/OOC%20ACTIVITY#requirements-)
-* [How to run the code over terminal](https://github.com/Mikeyzgoat/4th-SEM-Activities/new/main/Activities/OOC%20ACTIVITY#how-to-run-the-code-over-terminal-)
-* [Classes Used](https://github.com/Mikeyzgoat/4th-SEM-Activities/new/main/Activities/OOC%20ACTIVITY#classes-used-)
-* [What happens during runtime?](https://github.com/Mikeyzgoat/4th-SEM-Activities/new/main/Activities/OOC%20ACTIVITY#what-happens-during-runtime-)
-* [How does the API work?](https://github.com/Mikeyzgoat/4th-SEM-Activities/new/main/Activities/OOC%20ACTIVITY#how-does-the-api-work-)
-* [Role of JSONObject class](https://github.com/Mikeyzgoat/4th-SEM-Activities/new/main/Activities/OOC%20ACTIVITY#role-of-jsonobject-class-)
-* [Future Updates](https://github.com/Mikeyzgoat/4th-SEM-Activities/new/main/Activities/OOC%20ACTIVITY#future-updates-)
+* Requirements
+* How to run the code over terminal
+* Classes Used
+* What happens during runtime?
+* How does the API work
+* Role of JSONObject class
+* Future updates
+
 ## Requirements :
 * JSONObject class in java : As of now the built in JSON class in java is depracated, but making use of the required [jar file](https://github.com/stleary/JSON-java). Download it by clicking [here](https://search.maven.org/remotecontent?filepath=org/json/json/20220320/json-20220320.jar).
 * JDK-8 and above.
