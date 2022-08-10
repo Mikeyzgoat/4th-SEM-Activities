@@ -1,8 +1,9 @@
 # StringOps :
 <p align="center">
-  <img width="460" height="300" src = "https://imgs.search.brave.com/leIEr9JmWsLlFTxsOSaLy9RgZ3RFao9UGpqsnBErl18/rs:fit:613:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5h/MTVYTmhoS2xaa3F3/NjNiQklmSE93SGFG/dSZwaWQ9QXBp">
+  <img width="460" height="300" src = "https://imgs.search.brave.com/leIEr9JmWsLlFTxsOSaLy9RgZ3RFao9UGpqsnBErl18/rs:fit:613:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5h/MTVYTmhoS2xaa3F3/NjNiQklmSE93SGFG/dSZwaWQ9QXBp"><br>
+  A parts of speech tagger that reads a string and returns all possible parts of speech of substrings from a user input (string).
 </p>
-A parts of speech tagger that reads a string and returns all possible parts of speech of substrings from a user input (string).
+
 
 ## Contents :
 * Requirements
@@ -86,3 +87,7 @@ for(int i=1;i<=5;i++){
 Future updates to be carried out : <br>
 * [ ] Spelling checks <br>
 * [ ] Word meanings, synonyms, antonyms<br>
+
+### Contributors
+* [T ADITYA](https://github.com/Mikeyzgoat)
+* [TANMAY V](https://github.com/thetanmayguy)
