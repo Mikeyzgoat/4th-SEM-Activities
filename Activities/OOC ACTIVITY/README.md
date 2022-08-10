@@ -20,7 +20,8 @@
 * 
 ## How to run the code over terminal : 
 > Notice : 
-It is to be noted that the jar file must and should be binded alongside compilation. Otherwise it wouldn't recognize org.json.JSONObject class.
+Note that the jar file must and should be binded alongside compilation. Otherwise it wouldn't recognize org.json.JSONObject class.<br>
+
 Compilation step :
 ```shell
 javac -cp json-20220320.jar pos.java
@@ -39,7 +40,7 @@ java -cp :json-20220320.jar pos
 * import java.util.Scanner
  
 ## What happens during runtime? :
-> - We start of by taking the user's input as a string.<br>
+> - We start by taking the user's input as a string.<br>
 > - The string obtained will be processed to remove unwanted characters.<br>
 
 the process is as below :
@@ -52,7 +53,8 @@ Now the string after removing all unnecessary characters will be split into indi
 // str[] is the array holding substrings.
 String str[] = st.split(" ");
 ```
-> The substring str may contain unnecessary spaces as a member in array.<br> Q.) <i>What should we do as the API can't return anything for an empty string?.</i><br>Ans.<i> Simple dont consider it while sending it to the api for required data.</i>
+The substring str may contain unnecessary spaces as a member in array.<br> 
+> Q. <i>What should we do as the API can't return anything for an empty string?.</i><br>A. <i> Simple dont consider it while sending it to the api for required data.</i>
 <br>
 Now we create an object of the class pos called obj, and call the member function <i>thesaurus</i>.
 
