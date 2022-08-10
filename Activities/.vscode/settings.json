@@ -1,0 +1,7 @@
+{
+    "git.ignoreLimitWarning": true,
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "OOC octivity/StringOps/json-20220320.jar"
+    ]
+}
