@@ -95,9 +95,6 @@ JSONObject Jobj = new JSONObject(response.body()).getJSONObject("data");
 ```java
 for(int i=1;i<=5;i++){
     String str = (Jobj).getString("pos"+ i);
-    if(str == "etc" && (st == "a" || st == "an")){
-        str = "det"; // API for some reason doesn't recognize "a" and "an" as determiners.
-    }
     if(str != "") // Eliminates empty fields
         System.out.print(str+" ");
 }
